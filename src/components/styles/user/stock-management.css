@@ -1,0 +1,147 @@
+/* stock-management.css */
+
+.stock-management {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e2e; /* Dark background */
+  color: #fff;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header {
+  background-color: orange; /* Slightly darker for the header */
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.header-title {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+}
+
+.main-content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.sidebar-graph {
+  flex: 1 1 40%;
+  background-color: #2b2e3b;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.bar-chart h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.warehouse-selection {
+  margin-top: 20px;
+}
+
+.warehouse-selection label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input-field:focus {
+  outline: 2px solid #6272a4;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-bar input {
+  padding-right: 35px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  color: #6272a4;
+}
+
+.warehouse-value {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.item-management {
+  flex: 1 1 50%;
+  background-color: #2b2e3b;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.item-management h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-button {
+  background-color: #50fa7b; /* Vibrant green */
+  border: none;
+  color: #282a36;
+  padding: 10px 15px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.add-button:hover {
+  background-color: #45e06b;
+}
+
+.all-items {
+  margin-top: 30px;
+}
+
+.all-items-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.item-list {
+  background-color: #44475a;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+.custom-tooltip {
+  background: #44475a;
+  padding: 10px;
+  color: #f8f8f2;
+  border-radius: 5px;
+}

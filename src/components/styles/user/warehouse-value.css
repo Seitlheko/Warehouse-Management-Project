@@ -1,0 +1,32 @@
+.warehouse-value {
+  padding: 20px;
+  background-color: #f4f4f4; /* Light background for better contrast */
+  border-radius: 10px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1; /* Highlight row on hover */
+}

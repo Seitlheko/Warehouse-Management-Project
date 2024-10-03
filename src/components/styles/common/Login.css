@@ -1,0 +1,90 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://www.wvi.org/sites/default/files/styles/4_3_720x540/public/2024-09/shared%20image%20%2832%29.webp?itok=Y-xUODwV"); /* Correct path */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  color: #ffffff; /* White text */
+  font-family: Arial, sans-serif; /* Font family */
+}
+
+.login-card {
+  background-color: #2c2c2c; /* Slightly lighter dark background for card */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  width: 300px; /* Set a fixed width for the card */
+}
+
+.welcome-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: #ffcc00; /* Vibrant highlight color */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff; /* White text for labels */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #444; /* Dark border */
+  border-radius: 4px;
+  background-color: #3a3a3a; /* Dark background for inputs */
+  color: #ffffff; /* White text for inputs */
+}
+
+input:focus {
+  border-color: #ffcc00; /* Highlight border color on focus */
+  outline: none;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffcc00; /* Highlight color for button */
+  color: #1e1e1e; /* Dark text for contrast */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #e6b800; /* Darker shade on hover */
+}
+
+.links {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.action-link {
+  color: #f8f7f3; /* Highlight color for links */
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-links {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+
+.footer-links a {
+  color: #ffffff; /* White text for footer links */
+  text-decoration: none;
+  margin: 0 5px;
+}

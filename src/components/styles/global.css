@@ -1,0 +1,89 @@
+/* src/styles/global.css */
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4; /* Light gray background */
+  color: #333; /* Dark gray text color */
+}
+
+a {
+  text-decoration: none;
+  color: #007bff; /* Bootstrap primary color */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header,
+.footer {
+  background-color: #333; /* Dark gray background */
+  color: #fff; /* White text color */
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.header h1,
+.footer p {
+  margin: 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker shade of the primary color */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+
+.search-icon {
+  color: #007bff; /* Match button color */
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
+}

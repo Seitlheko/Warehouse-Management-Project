@@ -1,0 +1,95 @@
+.reports {
+  display: flex;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 250px; /* Adjust sidebar width as needed */
+  padding: 20px;
+  background-color: #9b9891; /* Light background for sidebar */
+  border-right: 1px solid #0c0c0c;
+}
+
+.sidebar .btn-sidebar {
+  padding: 10px;
+  background-color: #007bff;
+  color: rgb(231, 150, 28);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Full width for the button */
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .filter-section {
+  margin-top: 20px;
+}
+
+.sidebar .filter-section label {
+  font-weight: bold;
+}
+
+#warehouse-select {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.sidebar .report-actions {
+  margin-top: 20px;
+}
+
+.btn-download,
+.btn-view-graphs {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: 5px; /* Space between buttons */
+}
+
+.btn-download:hover,
+.btn-view-graphs:hover {
+  background-color: #0056b3;
+}
+
+.main-content {
+  flex: 1; /* Takes up remaining space */
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.report-table th,
+.report-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.report-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.report-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

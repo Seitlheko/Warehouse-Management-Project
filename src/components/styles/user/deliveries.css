@@ -1,0 +1,127 @@
+/* DeliveriesPage.css */
+
+.deliveries-page {
+  display: flex;
+  height: auto; /* Adjust height to fit content */
+}
+
+.sidebar {
+  background-color: orange; /* Sidebar background color */
+  padding: 1rem;
+  width: 250px; /* Fixed sidebar width */
+  height: 100vh; /* Full height for the sidebar */
+  position: fixed; /* Keep the sidebar fixed */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  color: black; /* Sidebar title color set to black */
+  margin-bottom: 20px; /* Spacing below title */
+}
+
+.sidebar-button {
+  color: white; /* Button text color set to white */
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+  padding: 10px; /* Padding for clickable area */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth background and color change */
+  background-color: #007bff; /* Default background for buttons (blue) */
+}
+
+.sidebar-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  color: white; /* Keep text color white on hover */
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f4f4f4; /* Light background color */
+  margin-left: 250px; /* Ensure content doesn't overlap with sidebar */
+  height: auto; /* Adjust height to fit content */
+}
+
+.main-content h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: black; /* Main content header color set to black */
+}
+
+.warehouse-selection,
+.item-selection,
+.items-dispatched,
+.delivery-info {
+  margin-bottom: 20px;
+  padding: 15px; /* Add padding to sections */
+  background-color: rgb(128, 115, 115); /* Background color for sections */
+  border-radius: 8px; /* Rounded corners for sections */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.warehouse-selection label,
+.item-selection h3,
+.delivery-info label,
+.warehouse-selection p, /* Ensure any paragraph text is also black */
+.item-selection p,
+.delivery-info p {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold; /* Bold labels for emphasis */
+  color: black; /* Label color set to black */
+}
+
+.warehouse-selection select,
+.delivery-info input {
+  width: 100%;
+  padding: 10px; /* Increased padding for inputs */
+  border-radius: 4px;
+  border: 1px solid #ccc; /* Border color for inputs */
+  color: black; /* Text color for inputs set to black */
+}
+
+.warehouse-selection select:focus,
+.delivery-info input:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+.dropdown-small {
+  width: auto; /* Adjust width to make the dropdowns smaller */
+}
+
+.items-dispatched button.delete-button {
+  margin-left: 10px;
+  color: white; /* Button text color */
+  background-color: red; /* Delete button background color */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.items-dispatched button.delete-button:hover {
+  background-color: darkred; /* Darker red on hover */
+}
+
+.add-delivery {
+  padding: 10px 20px;
+  background-color: #28a745; /* Green background for add button */
+  color: rgb(58, 53, 53); /* Button text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.add-delivery:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.add-delivery:disabled {
+  background-color: #ccc; /* Disabled button color */
+  cursor: not-allowed; /* Change cursor for disabled state */
+}

@@ -1,0 +1,176 @@
+.admin-dashboard {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #2d3748;
+  color: white;
+  height: 100vh;
+  position: fixed;
+}
+
+.sidebar-header {
+  padding: 20px;
+  text-align: center;
+  background-color: #1a202c;
+}
+
+.logo {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo-icon {
+  font-size: 2.5rem;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 15px 20px;
+}
+
+.sidebar ul li:hover {
+  background-color: #4a5568;
+}
+
+.sidebar ul li a {
+  color: white;
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Ensure links don't have underlines */
+}
+
+.sidebar ul li a .icon {
+  margin-right: 10px;
+}
+
+.main-content {
+  margin-left: 250px;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-title {
+  font-size: 1.5rem;
+  color: #2d3748;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin-right: 20px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  margin-right: 5px;
+}
+
+.search-icon {
+  color: #2d3748;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+  color: #2d3748;
+}
+
+.username .user-icon {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+.dashboard-overview {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.dashboard-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.dashboard-card .icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.dashboard-card h3 {
+  font-size: 1.25rem;
+  color: #2d3748;
+}
+
+.dashboard-card p {
+  font-size: 1rem;
+  color: #718096;
+}
+
+.dashboard-card .button {
+  margin-top: 15px;
+  display: inline-block;
+  background-color: #2d3748;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none; /* Remove underline from links styled as buttons */
+}
+
+.dashboard-card .button:hover {
+  background-color: #4a5568; /* Hover effect */
+}
+
+.dashboard-footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #718096;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .admin-dashboard {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  .dashboard-card {
+    width: 100%;
+  }
+}
